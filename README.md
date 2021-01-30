@@ -1,8 +1,8 @@
 # SVM-from-scratch
 
 
-In this repository SVM's are implemented in Julia, however it is ridiculusly easy to transfer in any language if you follow my math.
-This repository extends the usability and functionality of julias Convex library (https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/)
+Here SVM's are implemented in Julia, however it is ridiculously easy to transfer in any language if you follow my math.
+This repository extends the usability and functionality of julias Convex library https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/
 
 
 * Juicy History behind Support Vector Machines 

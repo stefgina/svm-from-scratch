@@ -89,7 +89,7 @@ The decision boundary is shown bellow in green. I also extended the code to ask 
 
 ### Author - Stefanos Ginargyros
 
-If you understand why this works, you can understand why Neural Networks work.
+```If you understand why this works, you can understand why Neural Networks work.```
 
 
 

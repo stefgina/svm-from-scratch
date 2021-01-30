@@ -1,8 +1,8 @@
 # SVM-from-scratch 
 
-```python
+```julia
 
-Author -> Stefanos Ginargyros
+Author = Stefanos Ginargyros
 
 ```
 

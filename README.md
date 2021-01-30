@@ -77,7 +77,7 @@ solve!(problem, solver)
 * Results
 
 When training ends (meaning the Convex Solver optimization) on our distribution dataset, the classifier has found the best seperating line (meaning the best w and b).
-The decision boundary is shown bellow in green. I also extended the code to ask an input from the user and classify it accordingly.
+The decision boundary is shown bellow in green. I also extended the code to ask an input from the user and classify it accordingly (the yellow point bellow).
 
 
 
@@ -87,10 +87,11 @@ The decision boundary is shown bellow in green. I also extended the code to ask 
 
 
 
-### Author - Stefanos Ginargyros
 
-```If you understand why this works, you can understand why Neural Networks work.```
 
+```If you understand why this works, you understand why Neural Networks work.```
+
+## Author - Stefanos Ginargyros
 
 
 

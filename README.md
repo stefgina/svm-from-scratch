@@ -82,7 +82,7 @@ solve!(problem, solver)
 
 ## 4. Results
 
-When training ends (meaning the Convex Solver optimization) on our distribution dataset, the classifier has found the best seperating line (meaning the best w and b).
+When the training ends (meaning the Convex Solver optimization) on our distribution dataset, the classifier has found the best seperating line (meaning the best w and b).
 The decision boundary is shown bellow in green. I also extended the code to ask an input from the user and classify it accordingly (the yellow point bellow).
 
 

@@ -86,8 +86,7 @@ When the training ends (meaning the Convex Solver optimization) on our distribut
 The decision boundary is shown bellow in green. I also extended the code to ask an input from the user and classify it accordingly (the yellow point bellow).
 
 
-
-<img src="https://github.com/stefgina/svm-from-scratch/blob/main/imgs/julia.png" width=200 height=100> 
+ 
 <img src="https://github.com/stefgina/svm-from-scratch/blob/main/imgs/classified.png" width=400 height=250>
 
 

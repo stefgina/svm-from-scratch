@@ -1,8 +1,7 @@
-# SVM-from-scratch
+# SVM-from-scratch 
 
-
-Here SVM's are implemented in Julia, however it is ridiculously easy to transfer in any language if you follow along.
-This repository extends the usability and functionality of julias Convex library https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/
+Implemented in Julia, however it is ridiculously easy to transfer in any language you like if you follow along.
+This repository extends the usability and functionality of julias [Convex library](https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/).
 
 
 ## 1. Juicy History behind Support Vector Machines 
@@ -10,7 +9,7 @@ This repository extends the usability and functionality of julias Convex library
 Support Vector Machines are one of the most robust classification methods (can be regression too) we have today. 
 However SVM's aint new, they are here from the 90's. They are used in the context of Suppervised Learning, since you need to have labeled data to train them.
 It is even prooven that an SVM algorithm can solve every possible learning problem, if you have infinite computational resources or time. In reality as the number of trainable parameters increases, the complexity of the algorithm is escalating hyper-quickly! There are various smart tricks we do alongside SVM's, such as the Kernel trick (my mind
-was blown when I realised what it does, read here: https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d) which makes them still relevant in modern times. In fact It is one of the commonly used classification algorithms in industrial and research applications.
+was blown when I realised what it does, read [here](https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d)) which makes them still relevant in modern times. In fact It is one of the commonly used classification algorithms in industrial and research applications.
 
 
 
@@ -89,11 +88,7 @@ The decision boundary is shown bellow in green. I also extended the code to ask 
 
 
 
-
-
-
 ### Author - Stefanos Ginargyros
-#### "If you understand why this works, you understand why Neural Networks work"
 
 
 

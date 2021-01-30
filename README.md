@@ -1,5 +1,11 @@
 # SVM-from-scratch 
 
+```python
+
+Author -> Stefanos Ginargyros
+
+```
+
 Implemented in Julia, however it is ridiculously easy to transfer in any language you like if you follow along.
 This repository extends the usability and functionality of julias [Convex library](https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/).
 
@@ -88,7 +94,6 @@ The decision boundary is shown bellow in green. I also extended the code to ask 
 
 
 
-### Author - Stefanos Ginargyros
 
 
 

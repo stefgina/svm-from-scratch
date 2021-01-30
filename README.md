@@ -21,7 +21,7 @@ was blown when I realised what it does, read here: https://medium.com/@zxr.nju/w
 two linearly seperable distributions. I think it's always good to implement classifiers in these kind of datasets, in order to understand the behaviour of your classifier
 easier. The distributions I made are normal distributions arround (10,10) for Negatives and (30,30) for Positives. 
 
-```julia
+    ```julia
 using Distributions: MvNormal
 # positive data points
 pos_data = rand(MvNormal([30,30], 5.0), N);

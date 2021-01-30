@@ -1,7 +1,10 @@
 # SVM-from-scratch
+### Author - Stefanos Ginargyros
 
 Even though this repository is implemented in Julia, it is ridiculusly easy to transfer in any language if you follow my math.
 This repository extends the usability and functionality of julias Convex library (https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/)
+
+
 
 
 * Juicy History behind Support Vector Machines 
@@ -91,7 +94,6 @@ The decision boundary is shown bellow in green. I also extended the code to ask 
 
 ```If you understand why this works, you understand why Neural Networks work.```
 
-## Author - Stefanos Ginargyros
 
 
 

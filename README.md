@@ -43,26 +43,26 @@ the best possible way. "Best possible way" mathematically means three things:
 
    Well the margin is 1/norm(w), so if we flip it we just have to Minimize norm(w), or 1/2*norm(w)^2
 
-```julia
-Min(1/2*sumsquares(w))
-```
+   ```julia
+   Min(1/2*sumsquares(w))
+   ```
 
 * Negative Points shouldn't be classified as Positive.
 
    A Negative point missclassification is every Negative point above our decision boundary. Can be written as 
 
-```julia
-max(1+b-w'*pos_data, 0)
-```
+   ```julia
+   max(1+b-w'*pos_data, 0)
+   ```
 
 
 * Positive Points shouldn't be classified as Negative.
 
    A Positive point missclassification is every Positive point bellow our decision boundary. Can be written as 
 
-```julia
-max(1-b+w'*neg_data, 0)
-```
+   ```julia
+   max(1-b+w'*neg_data, 0)
+   ```
 
 Finally the whole objective function is constructed, and we can minimize it using the convex solver in SCS package.
 

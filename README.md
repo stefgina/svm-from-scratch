@@ -1,6 +1,6 @@
 # SVM-from-scratch 
 
-```julia
+```python
 
 Author = Stefanos Ginargyros
 

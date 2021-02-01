@@ -1,4 +1,4 @@
-# SVM-from-scratch v1_1
+# SVM-from-scratch
 
 ```python
 

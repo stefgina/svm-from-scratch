@@ -10,7 +10,7 @@ Implemented in Julia, however it is ridiculously easy to transfer in any languag
 This repository extends the usability and functionality of julias [Convex library](https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/).
 
 
-## 1. Juicy History behind Support Vector Machines 
+## 1. History behind Support Vector Machines 
 
 Support Vector Machines are one of the most robust classification methods (can be regression too) we have today. 
 However SVM's aint new, they are here from the 90's. They are used in the context of Suppervised Learning, since you need to have labeled data to train them.

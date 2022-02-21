@@ -6,7 +6,7 @@ Author = Stefanos Ginargyros
 
 ```
 
-Implemented in Julia, however it is ridiculously easy to transfer in any language you like if you follow along.
+Implemented in Julia, however it is easy to transfer in any language you like if you follow along.
 This repository extends the usability and functionality of julias [Convex library](https://jump.dev/Convex.jl/v0.13.2/examples/general_examples/svm/).
 
 

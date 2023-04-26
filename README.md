@@ -23,8 +23,7 @@ was blown when I realised what it does, read [here](https://medium.com/@zxr.nju/
 
 As in all classification tasks, here we need to classify our data into some predifined classes (Negative and Positive). For simplicity shake this repository implements a simple 
 2D classification scenario (where the data features are x, y). In order to achieve that we build a Linear SVM (a single line classifier), trying to classify as good as possible
-two linearly seperable distributions. I think it's always good to implement classifiers in these kind of datasets, in order to understand the behaviour of your classifier
-easier. The distributions I made are normal distributions arround (10,10) for Negatives and (30,30) for Positives. 
+two linearly seperable distributions. I think it's always beneficial to implement classifiers in these kind of datasets, in order to conceptualize their behaviour easier. The distributions I made are normal distributions arround (10,10) for Negatives and (30,30) for Positives. 
 
  ```julia
 using Distributions: MvNormal

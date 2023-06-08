@@ -43,7 +43,7 @@ neg_data = rand(MvNormal([10, 10], 5.0), M)
 Julia's official implementation explains the math great, so I will just point out the basics. The essence of our SVM is to estimate a line that seperates the two distributions
 the best possible way. "Best possible way" mathematically means three things:
 
-* Maximize the Margin between the decision boundary (the seperating line) and both of the distribution outliers.
+* Maximize the margin between the decision boundary (the seperating line) and both of the distribution outliers.
 
    Well the margin is 1/norm(w), so if we flip it we just have to Minimize norm(w), or 1/2*norm(w)^2
 

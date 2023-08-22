@@ -2,7 +2,7 @@
 
 ```python
 
-Author = Stefanos Ginargyros
+Author -> Stefanos Ginargyros
 
 ```
 

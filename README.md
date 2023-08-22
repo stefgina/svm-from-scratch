@@ -40,7 +40,7 @@ neg_data = rand(MvNormal([10, 10], 5.0), M)
 
 ## 3. Math behind SVM
 
-Julia's official implementation explains the math great, so I will just point out the basics. The essence of our SVM is to estimate a line that seperates the two distributions
+The essence of our SVM is to estimate a line that seperates the two distributions
 the best possible way. "Best possible way" mathematically means three things:
 
 * Maximize the margin between the decision boundary (the seperating line) and both of the distribution outliers.
